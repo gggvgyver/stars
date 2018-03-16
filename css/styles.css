@@ -17,6 +17,7 @@ nav ul li {
 	list-style-type: none;
 	padding-left: 20px;
 	text-align: right;
+	display: inline-block;
 }
 
 nav ul li a {
@@ -29,6 +30,7 @@ nav ul li a {
 	background-color: #FF00D7;
 	background-image: url(../img/0.jpg);
 	background-size: cover;
+	margin: 1%;
 }
 
 h1 {
@@ -45,8 +47,9 @@ h1 {
 }
 
 .col {
-	width: 33.3%;
+	width: 31.3%;
 	float: left;
+	margin: 1%;
 }
 
 /*테블릿*/
@@ -56,8 +59,13 @@ h1 {
 		text-align: center;
 		padding-left: 0px;
 	}
+	
 	.col {
-		width: 50%;
+		width: 48%;
+	}
+	
+	nav ul li {
+		display: block;
 	}
 }
 
@@ -67,7 +75,7 @@ h1 {
 		font-size: 20px;
 	}
 	.col {
-		width: 100%;
+		width: 98%;
 	}
 }
 
