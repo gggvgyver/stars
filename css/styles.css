@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* CSS Document */
+
+nav {
+	float: right;
+	padding-right: 20px;
+}
+
+body {
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+nav ul li {
+	list-style-type: none;
+	padding-left: 20px;
+	text-align: right;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #2BA273;
+}
+
+.hero-box {
+	height: 338px;
+	background-color: #FF00D7;
+	background-image: url(../img/0.jpg);
+	background-size: cover;
+}
+
+h1 {
+	color: #FFFFFF;	
+	font-size: 55px;
+	padding-top: 120px;
+	padding-left: 60px;
+}
+
+.col img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.col {
+	width: 33.3%;
+	float: left;
+}
+
+/*테블릿*/
+@media (max-width: 768px) {
+	h1 {
+		font-size: 40px;
+		text-align: center;
+		padding-left: 0px;
+	}
+	.col {
+		width: 50%;
+	}
+}
+
+/*모바일*/
+@media (max-width: 400px) {
+	h1 {
+		font-size: 20px;
+	}
+	.col {
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
