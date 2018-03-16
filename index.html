@@ -4,7 +4,19 @@
 <meta charset="utf-8">
 <title>2018/03/16 도서관에서 포트폴리오</title>
 </head>
-
+	<link rel="stylesheet" href="./css/flipclock.css">
+	<script src="./js/jquery.min.js"></script>
+	<script src="./js/flipclock.js"></script>
 <body>
+	<div class="clock" style="margin:2em;">
+		<script type="text/javascript">
+			var clock;
+			$(document).ready(function() {
+				clock = $('.clock').FlipClock({
+					clockFace: 'TwelveHourClock'
+				});
+			});
+		</script>
+	</div>
 </body>
 </html>
